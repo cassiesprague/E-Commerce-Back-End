@@ -2,12 +2,12 @@ const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection');
 
-class ProductTag extends Model {}
+class ProductTag extends Model { }
 
 ProductTag.init(
   {
     // define columns
-     //used the following link to help find the correct wya do define the columns
+    //used the following link to help find the correct wya do define the columns
     //also looked back at instrucor 05 create
     //https://docs.sqlalchemy.org/en/13/orm/mapping_columns.html
     id: {
@@ -28,6 +28,7 @@ ProductTag.init(
       references: {
         model: "tag",
         key: "id"
+      }
     }
   },
   {
