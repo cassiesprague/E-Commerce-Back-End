@@ -28,7 +28,7 @@ Once you have your own copy of the application and have opened it in your editor
 ![screenshot1](assets/ss1.png) ![screenshot2](assets/ss2.png) ![screenshot3](assets/ss3.png) ![screenshot4](assets/ss4.png) ![screenshot5](assets/ss5.png)
 
 ## Tutorial Video 
-If there is a video tutorial available for this application, you can watch that video here. 
+If there is a video tutorial available for this application, you can watch that video here. https://drive.google.com/file/d/1MycleT5OJ8lRmmv2DQ0k0tuZ2A0-ih8e/view?usp=sharing
 
 ## Credits
 I am the creator of this project. There was no collaborators.
