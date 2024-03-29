@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
 
 // get one product
 router.get('/:id', (req, res) => {
-    Product.findById(req.params.id).then((productData) => {
+    Product.findByPk(req.params.id).then((productData) => {
         res.json(productData);
     });
     // find a single product by its `id`
